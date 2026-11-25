@@ -1,0 +1,29 @@
+{
+  "nowPlaying": true,
+  "hotkeys": [
+    { "key": "F13", "command": ["/usr/bin/open", "-a", "Spotify"] },
+    { "key": "F16", "command": ["/usr/bin/open", "-a", "Slack"] },
+    { "key": "F17", "command": ["/usr/bin/open", "-a", "Safari"] },
+    { "key": "F18", "command": ["/usr/bin/open", "-a", "Mail"] }
+  ],
+  "layers": [
+    {
+      "name": "Layer 1 · Apps",
+      "layer": 0,
+      "turn": "Volume - / +",
+      "press": "Mute",
+      "keys": [
+        [
+          { "app": "/Applications/Spotify.app", "oled": "spotify" },
+          { "app": "/Applications/Slack.app", "oled": "slack" },
+          { "app": "/Applications/Safari.app", "oled": "globe" }
+        ],
+        [
+          { "app": "/System/Applications/Mail.app", "oled": "mail" },
+          { "symbol": "square.stack.3d.up.fill", "label": "Next layer", "oled": "layers" },
+          { "symbol": "playpause.fill", "label": "Play/pause", "oled": "play" }
+        ]
+      ]
+    }
+  ]
+}

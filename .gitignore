@@ -1,0 +1,7 @@
+.DS_Store
+.claude/
+*.bak
+*.log
+# flash dumps from `picotool save -a` are personal backups, never commit them
+*.uf2
+!firmware/togkey_pad_plus_generic.uf2
